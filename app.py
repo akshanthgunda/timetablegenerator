@@ -24,7 +24,7 @@ def main():
     )
 
     st.header("2. Subject–Class Frequency Table")
-    subject_df = st.experimental_data_editor(
+    subject_df = st.st.data_editor(
         pd.DataFrame({
             "Class": ["6A,6B,6C,7A,7B"],
             "Subject": ["English"],
