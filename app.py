@@ -11,7 +11,7 @@ def main():
     
     # --------- Input Tables ---------
     st.header("1. Teacher Information")
-    teacher_df = st.experimental_data_editor(
+    teacher_df = st.data_editor(
         pd.DataFrame({
             "Teacher": ["Ms. Smith", "Mr. Patel"],
             "Subjects": ["English", "Math, Science"],
